@@ -1,0 +1,58 @@
+Assignment: Building a SpringBoot CRUD Application with a Real-Time Chat Feature 
+
+ 
+1: Setting up the SpringBoot project and connecting to a database 
+
+Create a new SpringBoot project and set up the dependencies for connecting to a database (e.g. Hibernate) 
+
+Create a model class for storing user information (e.g. name, email, password, age, gender, mobile number) and a repository interface for performing CRUD operations on the user table 
+
+Set up a connection to a database and test the CRUD operations using the repository interface 
+
+2: Implementing the registration API 
+
+Create a controller class and a corresponding API endpoint for handling user registration 
+
+Validate the incoming request data to ensure that all required fields are filled out and that the email is unique 
+
+Return a response indicating the success or failure of the registration process 
+
+3: Implementing the login API 
+
+Create a controller class and a corresponding API endpoint for handling user login 
+
+Implement the login functionality using the user repository and password hashing 
+
+Validate the incoming request data to ensure that the email and password are correct 
+
+Return a response indicating the success or failure of the login process, along with a unique token for the user if they were successfully logged in 
+
+4: Implementing the select API 
+
+Create a controller class and a corresponding API endpoint for handling user selection 
+
+Implement the selection functionality using the user repository and a controller class 
+
+Allow users to search for other users by name, email, or other criteria 
+
+Return a response with a list of matching users 
+
+5: Implementing the update API 
+
+Create a controller class and a corresponding API endpoint for handling user updates 
+
+Implement the update functionality using the user repository and a controller class 
+
+Validate the incoming request data to ensure that all required fields are filled out and that the email is unique 
+
+Return a response indicating the success or failure of the update process 
+
+6: Implementing the delete API 
+
+Create a controller class and a corresponding API endpoint for handling user deletion 
+
+Implement the delete functionality using the user repository and a controller class 
+
+Validate the incoming request data to ensure that the user has permission to delete the specified user 
+
+Return a response indicating the success or failure of the delete process 
